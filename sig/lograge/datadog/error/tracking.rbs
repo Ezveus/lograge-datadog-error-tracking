@@ -1,0 +1,19 @@
+module Lograge
+
+  module Datadog
+
+    module Error
+
+      module Tracking
+
+        VERSION: String
+
+        def self.call: (ActiveSupport::Notifications::Event) -> Hash[Symbol, untyped]
+
+      end
+
+    end
+
+  end
+
+end
